@@ -1,0 +1,16 @@
+{
+  "value": {
+    "src-protocol": "amqp091",
+    "src-uri": "amqp://localhost",
+    "src-queue": "quorum1",
+    "src-consumer-args": {},
+    "dest-protocol": "amqp091",
+    "dest-uri": "amqp://localhost",
+    "dest-queue": "quorum2",
+    "dest-queue-args": {
+      "x-queue-type": "quorum",
+      "x-dead-letter-exchange": "dlx1",
+      "x-dead-letter-routing-key": "rk1"
+    }
+  }
+}
