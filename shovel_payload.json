@@ -7,10 +7,10 @@
     "dest-protocol": "amqp091",
     "dest-uri": "amqp://localhost",
     "dest-queue": "quorum2",
-    "dest-queue-args": {
+    "dest-queue-args": [
       "x-queue-type": "quorum",
       "x-dead-letter-exchange": "dlx1",
       "x-dead-letter-routing-key": "rk1"
-    }
+    ]
   }
 }
